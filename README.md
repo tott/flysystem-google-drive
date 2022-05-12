@@ -8,16 +8,16 @@
 
 - For Google Drive API V3
 ```bash
-composer require nao-pon/flysystem-google-drive:~1.1
+composer require noorfarooqy/flysystem-google-drive:~1.1
 ```
 - For Google Drive API V2 "**Deprecated**"
 ```bash
-composer require nao-pon/flysystem-google-drive:~1.0.0
+composer require noorfarooqy/flysystem-google-drive:~1.0.0
 ```
 
 ## Usage
 #### Follow [Google Docs](https://developers.google.com/drive/v3/web/enable-sdk) to obtain your `ClientId, ClientSecret & refreshToken` in addition you can also check this [easy-to-follow tutorial](https://gist.github.com/ivanvermeyen/cc7c59c185daad9d4e7cb8c661d7b89b)
-- you can also check [This Example](https://github.com/nao-pon/flysystem-google-drive/blob/master/example/GoogleUpload.php) for a better understanding.
+- you can also check [This Example](https://github.com/noorfarooqy/flysystem-google-drive/blob/master/example/GoogleUpload.php) for a better understanding.
 
 ```php
 $client = new \Google_Client();
@@ -40,8 +40,8 @@ $filesystem = new \League\Flysystem\Filesystem($adapter);
 ### Usage to with [elFinder](https://github.com/Studio-42/elFinder)
 
 ```bash
-composer require nao-pon/elfinder-flysystem-driver-ext
-composer require nao-pon/flysystem-google-drive:~1.1
+composer require noorfarooqy/elfinder-flysystem-driver-ext
+composer require noorfarooqy/flysystem-google-drive:~1.1
 ```
 
 ```php
@@ -116,7 +116,7 @@ $connector->run();
 ## Tips
 
 - [Setup a Laravel Storage driver with Google Drive API](https://gist.github.com/ivanvermeyen/cc7c59c185daad9d4e7cb8c661d7b89b)
-- [Issue list with "HowTo" tag](https://github.com/nao-pon/flysystem-google-drive/issues?utf8=%E2%9C%93&q=label%3AHowTo%20)
+- [Issue list with "HowTo" tag](https://github.com/noorfarooqy/flysystem-google-drive/issues?utf8=%E2%9C%93&q=label%3AHowTo%20)
 
 ## TODO
 
