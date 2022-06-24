@@ -1,5 +1,5 @@
 {
-    "name": "noorfarooqy/flysystem-google-drive",
+    "name": "tott/flysystem-google-drive",
     "description": "Flysystem adapter for Google Drive",
     "license": "MIT",
     "authors": [{
@@ -10,7 +10,7 @@
         "php": ">=5.4.0",
         "league/flysystem": "^3.0",
         "google/apiclient": "^2.0",
-        "noorfarooqy/flysystem-cached-extra": "~1.0"
+        "nao-pon/flysystem-cached-extra": "~1.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.0",
